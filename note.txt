@@ -1,0 +1,14 @@
+get the all html elments that we gonna use in the progranming.
+create a function for:
+    add EventListener to the addOne button for changing the innerHTML of counting elment (p), adding one in the existing value.
+now create another function for:
+    add EventListener to the save button for changing the innerHTML of storeCounting elment (p).
+        if we adding value at the first time only then replace the storeCounting elment (p) innerHTML with counting elment (p).
+        after first time rest of the value will add with comma (,) and 0 shouldn't be print inside of the storeCounting elment (p).
+
+for that task we need to know very well about:
+    function
+    addEventListener
+    documentObjectModel
+    operators
+    if else conditions
