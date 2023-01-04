@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    /* SIZE */
+    --fs-xl: 36px;
+    --fs-base: 16px;
+    /* FONT-FAMILY */
+    --ff-primary: 'Inter', sans-serif;
+    /* COLOR */
+    --gray: #808080;
+    --lightGray: #F6F6F6;
+    --white: #FFFFFF;
+    --blue: #128DFF;
+    --black: #000;
+}
+
+.ff-primary {
+    font-family: var(--ff-primary);
+}
+
+.fs-base {
+    font-size: var(--fs-base);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.bg-lightGray {
+    background-color: var(--lightGray);
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.mw-460 {
+    max-width: 460px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justy-content-center {
+    justify-content: center;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.my-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.counterBox {
+    padding: 45px;
+    background: var(--white);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.mainHeading {
+    font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--fs-xl);
+    line-height: 44px;
+    text-align: center;
+    color: var(--gray);
+}
+
+.btn-filled {
+    color: var(--white);
+    /* background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%) padding-box,
+            linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%) border-box; */
+    padding: 13px 35px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-outline {
+    color: var(--blue);
+    background: linear-gradient(97.42deg, var(--white) -4.95%, var(--white) 109.04%) padding-box,
+        linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%) border-box;
+    padding: 13px 35px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: var(--ff-primary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-base);
+    line-height: 19px;
+    text-align: center;
+    padding: 13px 35px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-width: 138px;
+}
+
+.bg-red {
+    background-color: red !important;
+    transition: all 300ms linear;
+}
+
+.btn-filled-bg {
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%) padding-box,
+        linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%) border-box;
+}
