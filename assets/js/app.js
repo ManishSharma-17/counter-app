@@ -1,4 +1,4 @@
-let counting = document.querySelector("#counting");
+const counting = document.querySelector("#counting");
 const addBtn = document.querySelector("#AddOneBtn");
 const saveBtn = document.querySelector("#SaveBtn");
 const storeCounting = document.querySelector("#storeCounting");
